@@ -6,7 +6,10 @@ var logger = require('morgan');
 var mongoose =require('mongoose');
 var config = require('config');
 var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+var productsRouter=require('./routes/api/products')
+var usersRouter = require('./routes/api/users');
+
+
 
 var app = express();
 
